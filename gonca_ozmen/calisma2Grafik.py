@@ -55,7 +55,7 @@ ax1.set_title('Yıllara Göre Kurumsal Bilgisayar Kullanımı')
 ax1.set_xticks(y_pos + eni/ 2)
 ax1.set_xticklabels(objects)
 ax1.legend()
-
+plt.xticks(rotation=90)
 
 # figure.tight_layout()
 plt.show()
